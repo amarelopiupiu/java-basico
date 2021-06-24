@@ -1,4 +1,5 @@
 # O básico de Java se encontra aqui
+Caso você clonou o repositório dentro de uma pasta, exclua o arquivo criado com o nome da sua pasta (extensão .iml).
 
 ## Sobre a Autora
 Oi, eu sou a Fernanda! Estou aqui para contribuir com meu conhecimento e espero poder ajudar no desenvolvimento profissional de cada um de vocês.
