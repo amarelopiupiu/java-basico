@@ -1,0 +1,30 @@
+Métodos abstratos
+Devem ser implementados por todos;
+Novos métodos quebram as implementações;
+(não é recomendado)
+
+Métodos default
+São herdados a todos que implementam;
+Novos métodos não quebram as implementações;
+
+public interface TV {
+    default void ligar() {
+        throw new UnsupportedOperationException("Error");
+    }
+}
+
+Herança múltipla
+Não possui herança múltipla (classes). Porém é possível implementar mais de uma interface.
+
+Enum
+Basicamente são dicionários de dados imutáveis.
+Não é permitido criar novas instâncias.
+O construtor é sempre declarado como private.
+
+public enum  TipoVeiculo { 
+    TERRESTRE, 
+    AQUATICO, 
+    AEREO 
+} 
+
+Por convenção, por serem objetos constantes e imutáveis (static final), os nomes são em MAIÚSCULO.

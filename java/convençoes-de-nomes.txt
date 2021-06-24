@@ -1,0 +1,5 @@
+classes: a primeira letra é maiúscula, o resto é minúsculo. exemplo: Camel
+classes com nomes compostos: segue o padrão camelcase, a primeira letra de cada palavra é maiúscula. exemplo: CamelCase
+métodos: os nomes dos métodos são sempre minúsculos. exemplo: camel
+métodos com nomes compostos: a primeira letra sempre é minúscula, e a primeira letra das outras palavras são em maiúsculas. exemplo: camelCase
+variáveis: são sempre com letras minúsculas. exemplo: camel

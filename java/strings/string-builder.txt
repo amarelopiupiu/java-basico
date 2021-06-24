@@ -1,0 +1,13 @@
+public class StringBuilder { 
+  public static void main(String[] args) { 
+    var nome = "André"; 
+  
+    final var builder = new java.lang.StringBuilder(nome); 
+    System.out.println(builder.append("Luis")); // com o append adicionamos uma string a string 
+    anterior 
+    final var reverse = builder.reverse(); // vai pegar a string e colocá-la de trás para frente 
+    System.out.println(reverse); 
+    final var insert = reverse.insert(0, "#").insert(reverse.length(), "#"); // na posição 0 vai inserir o # e na última posição vai colocar # 
+    System.out.println(insert); 
+  } 
+} 

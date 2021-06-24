@@ -1,0 +1,14 @@
+public class Incremento { 
+  
+  public static void main(String[] args) { 
+  
+    var numero = 1; 
+    System.out.println(++numero);    // é possível usar ++ e -- 
+// colocando da esquerda para direita: incrementa antes  
+// colocando da direita para esquerda: incremente depois 
+  
+    var variavel = 10; 
+    System.out.println(variavel--); 
+    System.out.println(variavel); 
+  } 
+} 

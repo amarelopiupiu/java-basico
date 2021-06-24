@@ -1,0 +1,35 @@
+java.util.Date
+ 
+Date() - retorna o dia da semana, mês dia, padrão de hora, timezone e o ano
+package aulas.trabalhandoComDatas.javaDate; 
+ 
+import java.util.Date; 
+
+/*Exemplo de utilização do construtor padrão da classe Date*/ 
+
+public class Exemplo001 { 
+    public static void main(String[] args) { 
+        Date novaData = new Date(); 
+        System.out.println(novaData); 
+    } 
+} 
+ 
+Date(long date)
+ele espera que passe os milisegundos com base padrão de tempo (epoch) que usa como referência 1 de janeiro de 1970 00:00:00. 
+epoch: epoch timestamp é um padrão largamente aceito para representar uma data como um inteiro 32-bits a partir do início do unix epoch
+vamos testar o System.currentTimeMillis(), esse método retorna o milissegundo mais próximo de sua execução com base no sistema operacional
+ 
+import java.util.Date; 
+
+/*Exemplo de utilização do construtor com passagem de parâmetro em milisegundos*/ 
+
+public class Exemplo002 { 
+    public static void main(String[] args) { 
+        Long currentTimeMillis = System.currentTimeMillis(); 
+        System.out.println(currentTimeMillis); 
+        // 1563127311564 
+        Date novaData = new Date(currentTimeMillis); 
+        System.out.println(novaData); 
+        // Sun Jul 14 15:01:51 BRT 2019 
+    } 
+} 

@@ -1,0 +1,8 @@
+Tipagem estática
+O Java faz a verificação do tipo da variável em tempo de compilação.
+
+Exemplo:
+
+Integer numero = "123456789";
+
+Quando um código com essa linha tentar ser compilado, o próprio compilador indicará um erro dizendo que o tipo Integer não pode receber valores do tipo "String".

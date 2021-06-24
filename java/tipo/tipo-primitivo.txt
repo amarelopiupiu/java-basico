@@ -1,0 +1,125 @@
+- Não aceitam NULL.
+- Possuem valores default.
+- Precisam ser inicializados (receber valor) para serem utilizados.
+
+byte
+Tamanho: 8 bits
+
+Numérico
+
+Declaração:
+
+byte b;
+byte b = 127; → tamanho máximo que pode receber
+byte b = -128; → tamanho mínimo que pode receber
+Não pode receber null
+
+
+char
+Tamanho: 16 bits
+
+Alfanumérico
+
+Declaração:
+
+char c;
+char c = 'A';
+char c = 15;
+Como é um único caractere não é possível as seguintes declarações:
+
+char c = 'AA';
+char c = -100;
+Não pode receber null
+
+
+short
+Tamanho: 16 bits
+
+Numérico
+
+Declaração:
+
+short s;
+short s = 32767; → tamanho máximo que pode receber
+short s = -32768; → tamanho mínimo que pode receber
+Não pode receber null
+
+
+int
+Tamanho: 32 bits
+
+Numérico
+
+Declaração:
+
+int i
+int i = 2147483647; → tamanho máximo que pode receber
+int i = -2147483648; → tamanho mínimo que pode receber
+Não pode receber null
+
+
+long
+Tamanho: 64 bits
+
+Numérico
+
+Necessita ter um L ou l no final para indicar para o compilador que é do tipo long.
+
+Declaração:
+
+long l
+long l = 9223372036854775807l; → tamanho máximo que pode receber
+long l = -9223372036854775808L; → tamanho mínimo que pode receber
+Não pode receber null
+
+
+float
+Tamanho: 32 bits
+
+Numérico não inteiro (decimal)
+
+Pode receber um f no final para indicar para o compilador que é do tipo float.
+
+Declaração:
+
+float f;
+float f = 65f;
+float f = 65.0f; → 3.402,823,5 E+38
+float f = -0.5f; → 1.4 E-45
+Não pode receber null
+
+
+double
+Tamanho: 64 bits
+
+Numérico não inteiro (decimal)
+
+Maior que o float
+
+Declaração:
+
+double d;
+double d = 1024.99; → 1.797,693,134,862,315,7 E+308
+double d = 10.2456; → 4.9 E - 32
+Não pode receber null
+
+
+boolean
+Só aceita os valores true ou false .
+
+Declaração:
+
+boolean bo;
+boolean bo = true;
+boolean bo = false;
+Não aceita os valores como string:
+
+boolean bo = "true";
+boolean bo = "false";
+Não pode receber null
+
+
+void
+Palavra reservada.
+Não é um tipo de variável.
+Serve para indicar que um método não tem retorno, não retorna nada.

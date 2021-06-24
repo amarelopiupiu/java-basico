@@ -1,0 +1,12 @@
+Significa que uma vez atribuído uma tipagem a uma variável, não é possível mudá-la.
+
+Exemplo:
+
+Caso uma variável seja criada dessa forma:
+String texto = "meu texto";
+
+Não será possível atribuí-la com um tipo diferente do inicial:
+text = 1000; → Apresentará erro na compilação
+
+Porém é possível atribuir um novo valor à essa variável caso ele seja do mesmo tipo:
+texto = "olá mundo";

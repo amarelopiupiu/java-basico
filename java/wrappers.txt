@@ -1,0 +1,16 @@
+São objetos que representam os tipos primitivos.
+Auto-boxing (auto inicialização) e Unboxing.
+Seguem as mesmas regras dos primitivos.
+São declarados como se fossem classes (começando com letra maíuscula).
+São objetos e por isso é possível atribuir null à eles.
+Possuem métodos utilitários como get e valueOf .
+
+Tipo de dado primitivo	        Classe Wrapper 
+byte	                        Byte
+short	                        Short
+int 	                        Integer
+long	                        Long
+float	                        Float
+double	                        Double
+boolean	                        Boolean
+char	                        Character

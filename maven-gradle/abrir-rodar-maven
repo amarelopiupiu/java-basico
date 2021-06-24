@@ -1,0 +1,8 @@
+1) abrir o maven
+
+abra a pasta maven no intelliJ
+no lado direito da tela em ‘lifecycle’ clique em ‘install’
+com isso ele cria uma pasta ‘target’, com classes, documentações, relatórios de testes, etc
+
+2) rodar o maven
+clique em ‘plugins’ - ‘spring-boot’ - ‘spring-boot-run’ para rodar o projeto

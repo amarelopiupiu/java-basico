@@ -1,0 +1,3 @@
+- breakpoints: no intelliJ, em cada linha de código, no lado esquerdo você pode adicionar breakpoints, o programa vai parar neles e vai esperar 
+- para executar o programa debug: rodar o programa com a opção “debug as”
+- para interromper o debug e fazer com que a execução prossiga até o final ou próximo breakpoint: deve usar a opção “resume program” com o ícone verde ou “play”

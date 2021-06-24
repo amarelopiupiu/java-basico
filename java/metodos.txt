@@ -1,0 +1,4 @@
+get - obter um recurso
+post - criar um recurso
+put - atualizar um recurso
+delete - remover um recurso

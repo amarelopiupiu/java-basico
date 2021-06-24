@@ -1,0 +1,33 @@
+passo 1 
+1- https://github.com/checkstyle/checkstyle/blob/master/src/main/resources/google_checks.xml
+baixe esse arquivo, mude o nome dele para ‘checkstyle.xml’ 
+2- adicione ele no seu projeto: crie uma pasta ‘config’ - outra pasta ‘checkstyle’ e coloque o arquivo ‘checkstyle.xml’ dentro dela
+ 
+passo 2
+1-https://github.com/pmd/pmd/blob/master/pmd-apex/src/main/resources/rulesets/apex/ruleset.xml baixe esse arquivo
+2- adicione ele no seu projeto: dentro da pasta ‘config’ - crie uma pasta ‘pmd’ e coloque o arquivo dentro dela ‘ruleset.xml’ dentro dela
+ 
+passo 3
+no arquivo build.gradle adicione: 
+plugins { 
+    id 'java' 
+    id 'checkstyle' 
+    id 'pmd' 
+} 
+ 
+checkstyle { 
+    toolVersion = '8.21'    // coloque a versão que você deseja usar
+    showViolations = true 
+    configFile = file("config/checkstyle/checkstyle.xml") 
+} 
+ 
+pmd { 
+    ruleSetFiles = files("config/pmd/ruleset.xml") 
+    toolVersion = '6.15.0'     // coloque a versão que você deseja usar
+    ignoreFailures = true 
+    consoleOutput = true 
+} 
+ 
+passo 4 
+no lado direito da tela, vá em ‘tasks’ - ‘build’ - clique em ‘build’ 
+ao fazer isso no seu terminal irá aparecer os ‘erros’ podem ser melhorados

@@ -1,0 +1,15 @@
+public class IF { 
+  public static void main(String[] args) { 
+    final var condicao = false; 
+  
+    if (condicao) {    // se a condição for verdadeira vai executar esse código 
+      System.out.println("A condição é verdadeira"); 
+    } else {    // se a condição for falsa vai executar esse código 
+      System.out.println("A condição é falsa"); 
+    } 
+  
+    final var ternario = condicao ? "é verdadeira" : "é falsa";    // temos condição ternária, depois do ? é o if, e depois do : é o else 
+  
+    System.out.println(ternario); 
+  } 
+} 

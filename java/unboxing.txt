@@ -1,0 +1,8 @@
+Atribuir um Wrapper à um tipo primitivo.
+Unboxing = é construído um objeto atribuindo-o a um tipo primitivo.
+
+int i = new Integer(3);
+int i = Integer.valueOf(1024);
+boolean b = Boolean.TRUE;
+boolean b = Boolean.getBoolean("false");
+

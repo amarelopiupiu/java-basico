@@ -1,0 +1,8 @@
+1) angular language service
+2) ts lint
+3) editor config for vs code
+4) atom one dark theme
+5) material icon theme
+6) auto import
+7) rainbow brackets
+8) px to rem

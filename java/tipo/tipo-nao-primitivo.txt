@@ -1,0 +1,23 @@
+String
+Sequência de caracteres.
+
+Declaração:
+String texto = "Hello World";
+
+
+Void
+Com letra maiúscula.
+É um tipo válido mas não representa nada, é uma classe vazia.
+
+Void v;
+
+Object
+Objeto principal do Java, todos os outros objetos estendem a classe Object.
+Object o = new Object();
+
+
+Number
+Pode receber atribuições de qualquer tipo numérico.
+Number numero = Integer.valueOf(100);
+
+Qualquer outro objeto

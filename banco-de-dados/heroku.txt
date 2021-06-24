@@ -1,0 +1,8 @@
+heroku
+podemos publicar um projeto na nuvem, coloque sua senha e entre:
+new -> new app -> de o nome para seu projeto - create app
+ 
+para criar o banco de dados: resources -> add-ons (adicione o seu banco de dados), exemplo: heroku postgres, escolha a versão free, clique nesse banco de dados criado -> settings -> database credentials, vá no arquivo applications.yml e troque as informações pelas informações do seu banco de dados
+ 
+vá no deploy > clique no github > logue na sua conta > depois coloque o nome do seu repositório
+selecione a branch que ele vai se conectar, clique em ‘enable automatic deploys’ > clique em ‘deploy branch’

@@ -1,0 +1,3 @@
+vá no jetbrains
+file -> project structure -> sdks -> + -> add jdk (adicione o seu arquivo baixado jdk)
+project - project sdk (coloque a versão da sua jdk)

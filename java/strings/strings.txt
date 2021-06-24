@@ -1,0 +1,29 @@
+estão dentro do pacote java.lang;
+ 
+package strings; 
+public class Strings { 
+  public static void main(String[] args) { 
+  
+    final var nome = "André"; // isso é uma string 
+    final var sobreNome = "Gomes"; // isso é uma string 
+    final var nomeCompleto = nome + sobreNome; // concatenação de strings 
+  
+    System.out.println(nome); // vai printar o nome 
+    System.out.println("Nome do cliente : " + nome); //vai printar uma frase + nome  
+    System.out.println("Nome completo do cliente : " + nomeCompleto); // vai printar uma frase + nome completo   
+    var string = new String(" Minha  String ");  // declarando uma string 
+  
+    System.out.println("Char na posição : " + string.charAt(5)); // vai pegar o caractere na posição 5 
+    System.out.println("Quantidade=" + string.length()); // é o tamanho da string 
+    System.out.println("Sem Trim [" + string + "]");  // não vai remover os caracteres em branco ao lado 
+    System.out.println("Com Trim [" + string.trim() + "]"); // vai remover os caracteres em branco ao lado 
+    System.out.println("Lower " + string.toLowerCase()); // vai deixar tudo em minúsculo 
+    System.out.println("Upper " + string.toUpperCase()); // vai deixar tudo em maiúsculo 
+    System.out.println("Contém M? " + string.contains("M")); // retorna true ou false se tiver a letra M 
+    System.out.println("Contém X? " + string.contains("X")); // retorna true ou false se tiver a letra X 
+    System.out.println("Replace " + string.replace("n", "$")); // vai substituir um valor pelo outro 
+    System.out.println("Equals? " + string.equals(" Minha String ")); // a string é igual ao valor passado? 
+    System.out.println("EqualsIgnoreCase? " + string.equalsIgnoreCase(" minha sTrinG ")); // vai ignorar o tamanho dos caracteres, vai retornar true or false se o conteúdo do texto for igual 
+    System.out.println("Substring(1,6)=" + string.substring(1, 6)); // vai pegar uma string na posição 1 até o 6 
+  } 
+} 

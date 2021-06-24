@@ -1,0 +1,30 @@
+introdução
+o que é o java: é uma linguagem de programação e plataforma computacional
+quando foi criada: em 1995 pela Sun Microsystems, por um time comandado por James Gosling, anos depois foi adquirida pela Oracle 
+diferença do java para outras linguagens de programação em relação a sua compilação: o java é compilado por bytecode que é interpretado por uma máquina virtual
+
+vm
+uma máquina virtual, é como o nome dela já diz, é uma máquina que simula uma máquina física e dentro dela podemos realizar diversas coisas
+
+bytecode
+é o código que é interpretado pelo java
+
+java SE
+java standard edition, é a distribuição mínima da plataforma de desenvolvimento de aplicação java
+
+compilador
+ele transforma a linguagem que os humanos entendem (linguagem de alto nível) para a linguagem que as máquinas entendem (linguagem de baixo nível), o compilador do java é o ‘javac’
+ 
+jdk
+java development kit ou kit de desenvolvimento java, são utilitários que permitem criar um software em java, ela é instalada para desenvolvimento
+
+java EE
+é a extensão do java SE que possui suporte de desenvolvimento de sistemas corporativos
+
+jvm
+é a máquina virtual do java, ele lê o bytecode e compila ele
+a vantagem de ter sua própria máquina virtual é poder rodar em qualquer sistema operacional
+
+jakarta EE
+o java EE estava avançando muito devagar, então tudo do java EE foi doado para o Eclipse Foundation, que registraram como Jakarta EE
+

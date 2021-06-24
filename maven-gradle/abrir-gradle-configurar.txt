@@ -1,0 +1,5 @@
+abrindo o gradle no intelliJ e configurando
+abra a pasta gradle no intelliJ 
+no lado direito da tela em ‘ - ‘build’ - clique em ‘build’
+com isso ele cria uma pasta ‘build’
+

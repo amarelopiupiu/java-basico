@@ -1,0 +1,25 @@
+this
+nesse exemplo - o this faz referência a variáveis dentro de uma classe, que estão recebendo um valor passado no método
+import java.util.Date; 
+public class Pessoa { 
+    public String nome; 
+    public String cpf; 
+    public Date data_nascimento; 
+ 
+    public Pessoa(String _nome, String _cpf, Date _data) { 
+        this.nome = _nome; 
+        this.cpf = _cpf; 
+        this.data_nascimento = _data; 
+    } 
+} 
+ 
+super
+ele é usado entre heranças de classes, ele nos proporciona estender/escrever métodos de uma classe pai para uma classe filha, ela chama o método construtor da classe pai, sem o ‘super’ caso precisasse modificar a classe herdada, teria que modificar em vários outros lugares
+Public aluno(String nome, int idade){ 
+    super(nome,idade); 
+} 
+ 
+hash code
+o método retorna o hash code de uma string
+String myStr = "Hello";
+System.out.println(myStr.hashCode());

@@ -1,0 +1,6 @@
+comandos para o visual studio (com o programa criado)
+(para não precisar ficar rodando o código toda hora com comandos e sim apenas clicar em ‘run’)
+vá no arquivo: package.json 
+no start escreva: “ng serve --o”
+ficará assim: “start”: “ng-serve --oo”
+entre no seu projeto e na pasta raiz (a pasta do seu código inteiro) escreva: npm start

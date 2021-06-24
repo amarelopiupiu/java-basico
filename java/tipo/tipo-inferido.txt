@@ -1,0 +1,8 @@
+Adicionado ao Java a partir da versão 10.
+
+É possível criar uma variável sem atribuir a ela um tipo explícito:
+var numero = Integer.valueOf("123456");
+
+var texto = "Olá";
+
+A tipagem forte continua existindo, a diferença é que a variável só vai receber um tipo quando o valor for atribuído a ela.

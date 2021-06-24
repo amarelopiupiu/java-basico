@@ -1,0 +1,23 @@
+toda classe precisa ter:
+- nome (todas as classes começam com letra maiúscula, se tiver nome composto sua primeira letra é maiúscula), modificador de acesso, pacote, método da função, dentro da função sempre vai ter um método, uma classe pode ter atributos, uma classe pode ter construtores (método que leva o mesmo nome da classe que fala como vai construir a classe quando instanciar um objeto dela), os métodos podem ter retornos, temos o tipo, é possível criar algo novo com o new
+
+- extends: é quando uma classe precisa herdar características de outra classe
+- implements: é quando uma classe precisa implementar os métodos de uma interface
+
+public class SuperUsuario {
+	private String login;
+	private String senha;
+	private nome;
+
+<!--Abaixo é um construtor-->
+
+public SuperUsuario(final String login, final String senha) {               
+	this.login = login;
+	this.senha = senha;
+}
+
+<!--Abaixo é um método-->
+
+public String getLogin() { return Login; }
+protected String getSenha() { return senha; }
+}

@@ -1,0 +1,41 @@
+banco de dados
+https://docs.docker.com/get-docker/ instale o docker (na instalação dele clique para habilitar o hyper-v), se não der pesquise na internet como habilitar
+
+digite o comando no seu terminal: docker run --name db_bootcamp -e POSTGRES_PASSWORD=123456 -d -p 5432:5432 postgres
+
+explicando o comando acima
+esse comando cria um container com o nome ‘db_bootcamp’, passou a senha do banco de dados, vai funcionar em background e as portas (externa:interna), a porta interna é obrigatoriamente 5432 porque é nativa do postgres, vai criar o container na image postgres 
+
+para ver se está funcionando
+digite no terminal: docker container ps 
+
+comandos
+para parar o programa: docker container stop nomedocontainer 
+para listar todos os containers: docker container ps -a
+para iniciar o programa: docker container start nomedocontainer 
+ver os logs do container: docker container logs nomedocontainer 
+ver as informações do container: docker container inspect nomedocontainer 
+mostra o status de consumo da memória do computador: docker statis
+
+listas as images: docker image ls 
+remove uma image: docker image rm postgres 
+ 
+no visual studio
+instale um plugin chamado PostgreSQL (cweijan) e 
+depois clique no ícone da baleia no visual studio, lá vai estar o seu banco de dados
+clique no ícone de banco de dados, coloque sua senha, vá em ‘public’ e crie sua tabela, para rodar é só clicar em ‘run sql’
+ 
+no arquivo application.xml coloque o código que tenhas as informações do banco de dados:
+ 
+spring: 
+  datasource: 
+    driver-class-name: org.postgresql.Driver 
+    url: jdbc-postgresql://localhost:5432/postgres 
+    username: postgres
+    password: senha criada
+  jpa: 
+    show-sql: true 
+    database-platform: org.hibernate.dialect.PostgreSQLDialect 
+    generate-ddl: true 
+    hibernate: 
+      ddl-auto: none 

@@ -1,0 +1,9 @@
+(vamos usar o ‘gitbash’ porque ele é mais parecido com o terminal do linux que é bem mais simples e fácil de mexer)
+vá na pasta onde você vai deixar o programa, clique com o botão direito e selecione ‘git bash’
+digite o comandos: 
+node -v
+npm -v
+ng --version
+npm install -g @angular/cli
+ng new nomedoprograma
+cd nomedoprograma/

@@ -1,0 +1,1 @@
+no IntelliJ: vá no lado direito da tabela em ‘plugins’ - ‘spring-boot’ - ‘spring-boot:run’

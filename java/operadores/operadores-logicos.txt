@@ -1,0 +1,40 @@
+public class Logicos {   
+  public static void main(String[] args) { 
+  
+    final var numero = 2; 
+    final var letra = "A"; 
+  
+    // Sort Circuit - Mais usada 
+    if (numero < 5 && letra.equals("A")) {   // as duas condições precisam ser iguais (&&) 
+      System.out.println("Atendeu a condição"); 
+    } 
+  
+    if (numero < 5 || letra.equals("A")) {    // ou uma ou outra condição precisa ser verdadeira (||)  
+      System.out.println("Atendeu a outracondição"); 
+    } 
+  
+   // Non Sort Circuit 
+    if (verifica(15) | verifica("A")) {   // se a 1ª condição for falsa, vai continuar verificando a 2ª (|) 
+        System.out.println("OK"); 
+    } else { 
+        System.out.println("Não OK"); 
+    } 
+  } 
+  
+    if (verifica(15) & verifica("A")) {   // se a 1ª condição for falsa, vai continuar verificando a 2ª  condição (&) 
+        System.out.println("OK"); 
+    } else { 
+        System.out.println("Não OK"); 
+    } 
+  } 
+  
+  private static boolean verifica(String letra) { 
+    System.out.println("Verificando letra..."); 
+    return letra.equals("A"); 
+  } 
+  
+  private static boolean verifica(Integer numero) { 
+    System.out.println("verificando numero..."); 
+    return numero > 10; 
+  } 
+} 

@@ -1,0 +1,15 @@
+para adicionar o gradle e o maven no seu projeto siga esses passos:
+
+1- ‘create new project’ 
+2- em ‘gradle’ selecione ‘java’ -> na ‘jdk’ selecione a versão que você preferir -> clique em ‘next’
+3- groupid: é o nome do projeto, coloque ele de trás pra frente, exemplo: one innovation digital (a leitura seria digital innovation one) -> as configurações que aparecerem deixe padrão
+
+>clique em ‘finish’<
+
+‘file’ - ‘project structure’ - ‘project’: precisa conferir se está com a jdk que você configurou (project sdk) e veja se a versão está certa (project language level), caso não esteja arrume 
+
+no arquivo ‘build gradle’ se não tiver esse código adicione uma linha abaixo da ‘version’:
+sourceCompatibility = 1.11
+
+(esse é um exemplo (1.11), de versão, pode mudar para outra caso precise)
+alerta: ao adicionar esse código vai aparecer um ícone, clique nesse ícone para atualizar o projeto

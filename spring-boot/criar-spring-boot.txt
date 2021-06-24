@@ -1,0 +1,19 @@
+https://start.spring.io/ 
+1- project (maven project)
+language (java)
+spring boot (escolha a versão mais atual sem ser ‘snapshot’)
+
+2- group (domínio da empresa que você está trabalhando, exemplo: br.com.appsbrasil)
+artifact e name (nome do projeto)
+description (adicione uma descrição se precisar)
+package name (vai ser criado automaticamente)
+packaging (jar)
+java (escolha a versão do java, a mais recomendada é a 8)
+
+3- add dependency (spring web)
+(as dependências são sistemas que você pode relacionar com o seu projeto)
+> clique em ‘generate ctrl’ <
+
+4- extraia a pasta 
+
+alerta: esse é o processo para gerar o maven, para gerar o gradle faça o mesmo processo, apenas mude o ‘project’ para ‘gradle project’, mude a descrição e o ‘artifact e name’

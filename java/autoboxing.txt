@@ -1,0 +1,53 @@
+Auto-boxing = é passado um valor puro para um tipo de objeto.
+
+Byte
+Declaração:
+
+Byte b = 127
+Byte b = -128
+byte nullByte = null;
+
+Character
+Declaração:
+
+Charactere c = 'A'
+Charactere c = 15
+
+Short
+Declaração:
+
+Short s = 32767
+Short s = -32768
+
+Integer
+Declaração:
+
+Integer i = 2147483647
+Integer i = -2147483648
+
+Long
+Declaração:
+
+Long l = 9223372036854775807l
+Long l = -9223372036854775808L
+
+Float
+Declaração:
+
+Float f = 65f
+Float f = 65.0f
+Float f = -0.5f
+
+Double
+Declaração:
+
+Double d = 1024.99
+Double d = 10.2456
+
+Boolean
+Declaração:
+
+Boolean bo = true
+Boolean bo = false
+Boolean bo = Boolean.getBoolean("false"); → OK
+Boolean bo = Boolean.valueOf("true"); → OK

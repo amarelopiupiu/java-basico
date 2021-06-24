@@ -1,0 +1,5 @@
+instalando o intelliJ
+https://www.jetbrains.com/idea/download/#section=windows baixe a versão community
+
+instalando o node
+https://nodejs.org/pt-br/download/ baixa a versão lts (o node serve para conseguirmos rodar o javascript)

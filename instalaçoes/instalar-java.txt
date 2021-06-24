@@ -1,0 +1,2 @@
+ https://www.oracle.com/java/technologies/javase/javase-jdk8-downloads.html faça download do java se development kit 8u291 para seu sistema operacional 
+- digite no terminal para ver se conseguiu baixar: java -version

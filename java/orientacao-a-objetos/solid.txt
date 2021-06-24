@@ -1,0 +1,16 @@
+são princípios da programação orientada a objetos, auxiliam o programador a escrever códigos mais limpos, facilitando a refatoração e estimulando o reaproveitamento do código
+ 
+- Single Responsibility Principle = Princípio da Responsabilidade Única
+cada classe deve ter apenas uma responsabilidade/objetivo e deixar cada classe em um arquivo diferente, não crie várias classes dentro de uma classe. 
+ 
+- Open Closed Principle = Princípio Aberto Fechado
+quando novos comportamentos precisam ser adicionados no software, devemos estender e não alterar o código original
+
+- Liskov Substitution Principle = Princípio da Substituição de Liskov
+classes derivadas devem ser substituíveis por suas classes base
+ 
+- Interface Segregation Principle = Princípio da Segregação da Interface
+uma classe não deve ser forçada a implementar interfaces e métodos que não serão utilizados, é melhor criar interfaces mais específicas ao invés de termos uma única interface genérica
+ 
+- Dependency Inversion Principle = Princípio da Inversão da Dependência
+um módulo de alto nível não deve depender de módulos de baixo nível, ambos devem depender da abstração, obs: inversão de dependência não é igual a injeção de dependência

@@ -1,0 +1,85 @@
+objetos
+- é uma classe  que armazena valor na sua variável,  esse valor é o objeto criado
+Pessoa pessoa = new Pessoa(); 
+
+atributos
+- as variáveis que um objeto guarda são chamadas de atributos
+ 
+métodos
+- um método que cria os primeiros objetos e lhes passa tarefas iniciais
+public static void main(String[] args) { 
+    } 
+construtores
+- são responsáveis por criar o objeto em memória, ou seja, instanciar a classe que foi definida
+- modificadores de acesso + nome da classe  + parâmetros
+public class Carro{ 
+
+/*CONSTRUTOR DA CLASSE Carro*/ 
+
+	public Carro(){ 
+	//Faça o que desejar na construção do objeto 
+	} 
+} 
+encapsulamento
+- serve para controlar o acesso aos atributos e métodos de uma classe, ele protege os dados e determina onde a classe poderá ser manipulada
+- a classe pode ser public ou package-private (padrão)
+- os atributos e métodos podem ser public, private, protected ou package-private
+- para ter acesso a algum atributo ou método que está encapsulado utiliza-se o get (recupera valor) ou o set (atribui valor)
+
+private String atributo1 = new String(); 
+private String atributo2 = new String(); 
+public String getAtributo1(){ 
+  return this.atributo1; 
+} 
+public String getAtributo2(){ 
+  return this.atributo2; 
+} 
+ 
+herança
+- há muitos debates sobre o uso da herança vs composição, porque a herança quebra a premissa básica do isolamento no encapsulamento 
+- com a herança é possível criar classes a partir de outras já previamente criadas
+- no código abaixo vemos que a classe apresenta atributos, além de um construtor que recebe esses dados como parâmetros. vamos criar subclasses para representá-los
+ 
+import java.util.Date; 
+public class Pessoa { 
+    public String nome; 
+    public String cpf; 
+    public Date data_nascimento; 
+ 
+    public Pessoa(String _nome, String _cpf, Date _data) { 
+        this.nome = _nome; 
+        this.cpf = _cpf; 
+        this.data_nascimento = _data; 
+    } 
+} 
+ 
+- com o ‘extends’ foi possível criar uma subclasse de uma classe, as novas classes possuem atributos e métodos próprios e também possuem propriedades em comum
+ 
+import java.util.Date; 
+public class Aluno extends Pessoa { 
+    public Aluno(String _nome, String _cpf, Date _data) { 
+        super(_nome, _cpf, _data); 
+    } 
+    public String matricula; 
+} 
+public class Professor extends Pessoa { 
+    public Professor(String _nome, String _cpf, Date _data) { 
+        super(_nome, _cpf, _data); 
+    } 
+    public double salario; 
+    public String disciplina; 
+} 
+public class Funcionario extends Pessoa { 
+    public Funcionario(String _nome, String _cpf, Date _data) { 
+        super(_nome, _cpf, _data); 
+    } 
+    public double salario; 
+    public Date data_admissao; 
+    public String cargo; 
+} 
+ 
+polimorfismo
+polimorfismo é a capacidade de um objeto ser referenciado de diversas formas diferentes e com isso realizar as mesmas tarefas, o poliformismo recebe get e set
+- exemplo: existem uma variável (Pessoa), essa variável pode receber um objeto do tipo PessoaFisica ou PessoaJuridica
+Pessoa fisica = new PessoaFisica(); 
+Pessoa juridica = new PessoaJuridica(); 
